@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://github.com/freestylefly/awesome-gpt-image-2"><img src="https://img.shields.io/github/stars/freestylefly/awesome-gpt-image-2?style=flat-square&color=rgb(25%2C%20121%2C%20255)" alt="Stars"></a>
   <a href="https://github.com/freestylefly/awesome-gpt-image-2"><img src="https://img.shields.io/github/forks/freestylefly/awesome-gpt-image-2?style=flat-square&color=green" alt="Forks"></a>
-  <a href="https://github.com/freestylefly/awesome-gpt-image-2"><img src="https://img.shields.io/badge/Cases-532-blueviolet?style=flat-square" alt="Cases"></a>
+  <a href="https://github.com/freestylefly/awesome-gpt-image-2"><img src="https://img.shields.io/badge/Cases-544-blueviolet?style=flat-square" alt="Cases"></a>
   <a href="https://github.com/freestylefly/awesome-gpt-image-2"><img src="https://img.shields.io/badge/100%25-Original_AI_Rewritten-green?style=flat-square" alt="Original"></a>
   <a href="https://github.com/sponsors/freestylefly"><img src="https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-ff69b4?style=flat-square" alt="Sponsor"></a>
 </p>
@@ -20,9 +20,25 @@
   <a href="./README.md">English</a> | <strong>简体中文</strong> | <a href="./README.ja.md">日本語</a>
 </p>
 
+## GPT Image 2.5 专区
+
+[进入 2.5 专区](https://gpt-image2.canghe.ai/gpt-image-2-5/)：先了解 Sunburst 与 Flare，再通过共享 Prompt、滑动 / 并排对照、原图放大和参数说明体验新旧模型的对比方式。
+
+- [Sunburst](https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst)：面向精细图片生成与编辑。
+- [Flare](https://developers.openai.com/api/docs/models/gpt-image-2.5-flare)：面向快速、高质量的日常图片生成。
+- **已加入 4 组真实案例复现**：[532 柠檬广告](https://gpt-image2.canghe.ai/gpt-image-2-5/?case=gallery-532-test)、[527 里约纸雕](https://gpt-image2.canghe.ai/gpt-image-2-5/?case=gallery-527-test)、[523 曼哈顿水彩](https://gpt-image2.canghe.ai/gpt-image-2-5/?case=gallery-523-test)、[510 Bichon Shop 图标](https://gpt-image2.canghe.ai/gpt-image-2-5/?case=gallery-510-test)。每组保留图库原图，复用站内完整提示词，通过内置生图生成一次新结果，不输入参考图；可用案例下拉框直接切换。[查看图片、提示词与生成记录](docs/design/gpt-image-2-5/real-cases.md)。原图生成条件与工具具体模型 ID 未核验，其他示意案例继续单独标注。
+
+专区独立运行；原有 GPT-Image2 案例、模板、Skill 和在线生成入口继续保留。本次更新未接入 2.5 在线生图。
+
+<p align="center">
+  <a href="https://gpt-image2.canghe.ai/gpt-image-2-5/">
+    <img src="docs/design/gpt-image-2-5/case532-preview.jpg" alt="GPT Image 2.5 专区预览：案例 532 真实复现" width="900">
+  </a>
+</p>
+
 ## 🌐 可视化网站
 
-访问 [gpt-image2.canghe.ai](https://gpt-image2.canghe.ai/) 可以用产品化方式浏览案例：查看大图、复制完整 Prompt、按风格或场景筛选、登录后测试生成，并快速跳回 GitHub 源案例。
+访问 [gpt-image2.canghe.ai](https://gpt-image2.canghe.ai/) 可以用产品化方式浏览案例：查看大图、复制完整 Prompt、按风格或场景筛选、配置个人 APIMart Key 或登录后测试生成，并快速跳回 GitHub 源案例。
 
 <p align="center">
   <a href="https://gpt-image2.canghe.ai/">
@@ -30,11 +46,11 @@
   </a>
 </p>
 
-## 付费交流群
+## 交流群
 
-GPT-Image2 交流群现已改为付费加入。请登录[付费群页面](https://gpt-image2.canghe.ai/community)，通过支付宝一次性支付 **¥9.90**；只有服务端确认付款后，当前账号才能查看受保护的群二维码。
+欢迎加入 GPT-Image2 交流群，与其他用户分享提示词、创作方法和使用经验。点击[交流群链接](https://gpt-image2.canghe.ai/community)查看加入方式。
 
-支付、入群、退款或产品使用遇到问题，可以关注微信公众号 **苍何**，扫描下方二维码后直接留言联系。
+关注微信公众号 **苍何** 或扫描下方二维码，及时获取项目更新、最新案例与实用教程。
 
 <p align="center">
   <img src="src/assets/canghe-official-account.png" alt="苍何微信公众号二维码与微信搜索提示" width="760">
@@ -47,9 +63,11 @@ GPT-Image2 交流群现已改为付费加入。请登录[付费群页面](https:
 | 赞助方 | 说明 |
 | ------ | ---- |
 | <a href="https://apimart.ai/register?aff=oQgzUQ"><img src="data/images/sponsors/apimart.jpg" alt="APIMart" width="240"></a> | 感谢 APIMart 赞助了本项目！APIMart 是专注 AI 图片/视频生成的低价 API 平台，GPT-Image-2 低至 `$0.006/张`，1 美元可出图 160+ 张。图片、视频一套异步 API 通吃，提交任务拿 ID、回调取结果，跑批万张不超时、换模型不改代码。按量付费、无月费，通过此[注册链接](https://apimart.ai/register?aff=oQgzUQ)注册即可开用。 |
-| <a href="https://www.hiapi.ai/zh/register?aff=DzuH"><img src="data/images/sponsors/hiapi.jpg" alt="hiapi" width="240"></a> | 感谢 hiapi 赞助了本项目！hiapi 是聚焦 AI 图片/视频生成的 API 平台——GPT-Image-2 全系（文生图、图生图、1K–4K）加 Seedance、可灵、万相等视频模型，统一异步 API 通吃：提交任务拿 `task_id`，轮询或回调取结果，跑批不超时、换模型不改代码。生成结果转存自有 CDN 并**支持持久化存储**——图片/视频链接长期有效、随时回取，免去自行下载备份。原生 Remote MCP 与 Agent Skills，一行接入 Claude Code、Cursor。中文界面与文档、支持微信支付，按量付费无月费，新用户注册即送 $1（约 50 张图）。通过此[注册链接](https://www.hiapi.ai/zh/register?aff=DzuH&utm_source=github&utm_medium=sponsor&utm_campaign=awesome-gpt-image-2)即可开用。 |
+| <a href="https://www.hiapi.ai/zh/register?aff=DzuH&utm_source=github&utm_medium=sponsor&utm_campaign=awesome-gpt-image-2"><img src="data/images/sponsors/hiapi.jpg" alt="hiapi" width="240"></a> | 感谢 HiAPI 赞助本项目！HiAPI 在一个 API 平台提供 GPT Image 2.5 Flare、Sunburst 等图片、视频和音频模型。Flare 适合日常快速创作，Sunburst 适合更精细的生成和编辑；两者支持 1K、2K、4K 输出，也可以先在 Playground 试用。媒体生成使用异步任务 API，具体输入参数按各模型文档填写。生成结果通过 HiAPI CDN 交付；需要长期保留时，可选择付费持久存储。Remote MCP 和 Agent Skills 也支持将 HiAPI 接入 AI 编程工具。新用户注册赠送 **200 Credits**，充值赠送档位请以 Billing 页面当前显示为准。通过此[注册链接](https://www.hiapi.ai/zh/register?aff=DzuH&utm_source=github&utm_medium=sponsor&utm_campaign=awesome-gpt-image-2)开始使用。 |
 | <a href="https://www.packyapi.ai/register?aff=CV0c"><img src="data/images/sponsors/packycode.png" alt="PackyCode" width="240"></a> | 感谢 PackyCode 赞助本项目！PackyCode 是一家稳定、高效的 API 中转服务商，提供 Claude Code、Codex、Gemini 等多种中转服务，具备自动故障转移、智能路由和无限并发等功能，帮助 AI 编程提升生产效率。通过此[注册链接](https://www.packyapi.ai/register?aff=CV0c)即可开始使用。 |
 | <a href="https://pptoken.cc/"><img src="data/images/sponsors/pptoken.png" alt="PPToken" width="240"></a> | 项目赞助方。PPToken 提供 ChatGPT、Claude、Gemini 等主流 AI 模型的 API 中转和 Key 分发能力，支持低延迟、高可用、按量付费和灵活订阅。 |
+| <a href="https://onliqiu.com/r/agi2"><img src="data/images/sponsors/liqiu-api.png" alt="立秋 API" width="240"></a> | 感谢立秋 API 赞助本项目！自古逢秋悲寂寥，我言秋日胜春朝。立秋 API 是一家稳定、透明、纯血的 AI 中转站，提供 ChatGPT、Claude、Grok、Gemini 等 AI 中转服务，按量付费，倍率低至 0.1x 起。大家都炸我不炸，凌晨依然在线维护，欢迎各位开发者[注册使用](https://onliqiu.com/r/agi2)。 |
+| <a href="https://sidrune.ai/register?source=github&campaign=gptimage&promo=gptimage2"><img src="data/images/sponsors/sidrune.png" alt="Sidrune AI" width="240"></a> | **一个入口，接入并管理全球主流AI模型**<br><br>Sidrune AI面向个人开发者、技术团队与企业，通过统一API接入并管理全球主流AI模型；通过多线路动态调度提升可用性，模型表现、响应时间与费用透明可查。根据不同模型与线路，API调用成本较官方或基准价格可降低40%—98%。<br><br>[立即访问并注册](https://sidrune.ai/register?source=github&campaign=gptimage&promo=gptimage2)，即可获得 $3 API 额度。 |
 
 <a name="section-vision"></a>
 
@@ -67,7 +85,7 @@ GPT-Image2 全量开放后，AI 画图从“能不能出图”变成了“能不
 
 - [完整案例总览](docs/gallery.md)
 - [案例画廊 Part 1：例 1-165](docs/gallery-part-1.md)
-- [案例画廊 Part 2：例 166-532](docs/gallery-part-2.md)
+- [案例画廊 Part 2：例 166-544](docs/gallery-part-2.md)
 - [工业级提示词模板与防坑指南](docs/templates.md#section-templates)
 - [Agent Skill：GPT-Image2 风格库](agents/skills/gpt-image-2-style-library/SKILL.md)
 - [MIT License](LICENSE)
@@ -88,13 +106,13 @@ GPT-Image2 全量开放后，AI 画图从“能不能出图”变成了“能不
       <a href="docs/gallery.md#cat-ui"><strong>查看案例</strong></a>
     </td>
     <td width="33%" valign="top" align="center">
-      <p><strong>📊 图表与信息可视化</strong><br><sub>52 cases</sub></p>
+      <p><strong>📊 图表与信息可视化</strong><br><sub>53 cases</sub></p>
       <a href="docs/gallery.md#cat-infographic"><img src="data/images/category-covers/infographic.jpg" alt="图表与信息可视化" width="220"></a><br>
       <sub>信息图、知识图谱、技术解释与结构化图解。</sub><br>
       <a href="docs/gallery.md#cat-infographic"><strong>查看案例</strong></a>
     </td>
     <td width="33%" valign="top" align="center">
-      <p><strong>📰 海报与排版</strong><br><sub>86 cases</sub></p>
+      <p><strong>📰 海报与排版</strong><br><sub>90 cases</sub></p>
       <a href="docs/gallery.md#cat-poster"><img src="data/images/category-covers/poster.jpg" alt="海报与排版" width="220"></a><br>
       <sub>活动海报、封面、字体视觉和强排版画面。</sub><br>
       <a href="docs/gallery.md#cat-poster"><strong>查看案例</strong></a>
@@ -102,7 +120,7 @@ GPT-Image2 全量开放后，AI 画图从“能不能出图”变成了“能不
   </tr>
   <tr>
     <td width="33%" valign="top" align="center">
-      <p><strong>🛍️ 商品与电商</strong><br><sub>41 cases</sub></p>
+      <p><strong>🛍️ 商品与电商</strong><br><sub>42 cases</sub></p>
       <a href="docs/gallery.md#cat-product"><img src="data/images/category-covers/product.jpg" alt="商品与电商" width="220"></a><br>
       <sub>商品图、详情页、包装卖点和商业广告。</sub><br>
       <a href="docs/gallery.md#cat-product"><strong>查看案例</strong></a>
@@ -122,19 +140,19 @@ GPT-Image2 全量开放后，AI 画图从“能不能出图”变成了“能不
   </tr>
   <tr>
     <td width="33%" valign="top" align="center">
-      <p><strong>📷 摄影与写实</strong><br><sub>77 cases</sub></p>
+      <p><strong>📷 摄影与写实</strong><br><sub>78 cases</sub></p>
       <a href="docs/gallery.md#cat-photo"><img src="data/images/category-covers/photo.jpg" alt="摄影与写实" width="220"></a><br>
       <sub>人像、手机纪实、胶片质感和商业摄影。</sub><br>
       <a href="docs/gallery.md#cat-photo"><strong>查看案例</strong></a>
     </td>
     <td width="33%" valign="top" align="center">
-      <p><strong>🎨 插画与艺术</strong><br><sub>58 cases</sub></p>
+      <p><strong>🎨 插画与艺术</strong><br><sub>59 cases</sub></p>
       <a href="docs/gallery.md#cat-illustration"><img src="data/images/category-covers/illustration.jpg" alt="插画与艺术" width="220"></a><br>
       <sub>插画、艺术风格、材质实验和装饰画面。</sub><br>
       <a href="docs/gallery.md#cat-illustration"><strong>查看案例</strong></a>
     </td>
     <td width="33%" valign="top" align="center">
-      <p><strong>🧍 人物与角色</strong><br><sub>29 cases</sub></p>
+      <p><strong>🧍 人物与角色</strong><br><sub>31 cases</sub></p>
       <a href="docs/gallery.md#cat-character"><img src="data/images/category-covers/character.jpg" alt="人物与角色" width="220"></a><br>
       <sub>角色设定、动作参考、卡牌和 3D 玩具。</sub><br>
       <a href="docs/gallery.md#cat-character"><strong>查看案例</strong></a>
@@ -142,7 +160,7 @@ GPT-Image2 全量开放后，AI 画图从“能不能出图”变成了“能不
   </tr>
   <tr>
     <td width="33%" valign="top" align="center">
-      <p><strong>🎬 场景与叙事</strong><br><sub>20 cases</sub></p>
+      <p><strong>🎬 场景与叙事</strong><br><sub>21 cases</sub></p>
       <a href="docs/gallery.md#cat-scene"><img src="data/images/category-covers/scene.jpg" alt="场景与叙事" width="220"></a><br>
       <sub>分镜、故事场景、直播画面和世界观叙事。</sub><br>
       <a href="docs/gallery.md#cat-scene"><strong>查看案例</strong></a>
@@ -154,7 +172,7 @@ GPT-Image2 全量开放后，AI 画图从“能不能出图”变成了“能不
       <a href="docs/gallery.md#cat-history"><strong>查看案例</strong></a>
     </td>
     <td width="33%" valign="top" align="center">
-      <p><strong>📚 文档与出版物</strong><br><sub>10 cases</sub></p>
+      <p><strong>📚 文档与出版物</strong><br><sub>11 cases</sub></p>
       <a href="docs/gallery.md#cat-document"><img src="data/images/category-covers/document.jpg" alt="文档与出版物" width="220"></a><br>
       <sub>白皮书、手册、百科图鉴和出版页设计。</sub><br>
       <a href="docs/gallery.md#cat-document"><strong>查看案例</strong></a>
@@ -170,14 +188,14 @@ GPT-Image2 全量开放后，AI 画图从“能不能出图”变成了“能不
     <td width="33%" valign="top" align="center">
       <h4>🖼️ 完整画廊</h4>
       <a href="docs/gallery.md"><img src="data/images/category-covers/gallery.jpg" alt="完整画廊" width="220"></a><br>
-      <sub>按分册浏览全部 532 个案例和代表案例入口。</sub><br>
+      <sub>按分册浏览全部 544 个案例和代表案例入口。</sub><br>
       <a href="docs/gallery.md"><strong>进入画廊</strong></a>
     </td>
     <td width="33%" valign="top" align="center">
       <h4>⭐ 最新新增</h4>
-      <a href="docs/gallery-part-2.md#case-532"><img src="data/images/case532.jpg" alt="最新新增" width="220"></a><br>
+      <a href="docs/gallery-part-2.md#case-544"><img src="data/images/case544.jpg" alt="最新新增" width="220"></a><br>
       <sub>最近收录的 X 社区案例和新玩法。</sub><br>
-      <a href="docs/gallery-part-2.md#case-532"><strong>查看最新</strong></a>
+      <a href="docs/gallery-part-2.md#case-544"><strong>查看最新</strong></a>
     </td>
   </tr>
 </table>
@@ -306,7 +324,7 @@ skill 源码位于 [`agents/skills/gpt-image-2-style-library`](agents/skills/gpt
 
 ## 🔐 网站登录与生成测试
 
-可视化网站已经接入登录后生成测试图能力，底层使用 Supabase Auth、Supabase Postgres，以及 Vercel Function 代理 GPT Image 2 API。
+可视化网站支持使用仅保存在当前浏览器的个人 APIMart Key 直接生成。没有配置个人 Key 时，登录用户继续使用 Supabase Auth、平台积分和服务端 APIMart Key。
 
 Vercel 需要配置这些环境变量：
 
@@ -315,8 +333,7 @@ VITE_SUPABASE_URL=
 VITE_SUPABASE_ANON_KEY=
 SUPABASE_SERVICE_ROLE_KEY=
 SUPER_ADMIN_EMAILS=2689458656@qq.com,canghe0818@gmail.com
-CIYUAN_API_KEY=
-CIYUAN_BASE_URL=https://ciyuan.today
+APIMART_API_KEY=
 APP_URL=https://gpt-image2.canghe.ai
 STRIPE_SECRET_KEY=
 STRIPE_WEBHOOK_SECRET=
@@ -336,6 +353,7 @@ GOOGLE_ANALYTICS_REFRESH_TOKEN=
 - 将 [`supabase/migrations/20260512090000_google_account_center.sql`](supabase/migrations/20260512090000_google_account_center.sql) 应用到 Supabase 项目，添加账户用量统计和超级管理员强制扣积分逻辑。
 - 将 [`supabase/migrations/20260512143000_pricing_admin_metrics.sql`](supabase/migrations/20260512143000_pricing_admin_metrics.sql) 应用到 Supabase 项目，更新 `$5 / 300 credits` 价格体系，并添加管理员数据看板指标。
 - 将 [`supabase/migrations/20260515090000_case_favorites.sql`](supabase/migrations/20260515090000_case_favorites.sql) 应用到 Supabase 项目，添加用户案例收藏表。
+- 将 [`supabase/migrations/20260828090000_apimart_generation_tasks.sql`](supabase/migrations/20260828090000_apimart_generation_tasks.sql) 应用到 Supabase 项目，保存 APIMart 任务 ID、实际美元成本、限时结果地址和服务商索引。
 - 在 Supabase Auth Redirect URLs 里加入 `https://gpt-image2.canghe.ai`，以及 `http://127.0.0.1:5173` 等本地开发地址。
 - 在 Supabase Dashboard 填入 Google OAuth 凭据并启用 Google Provider。
 - 如需强制只允许 Google 登录，可以在 Supabase Auth settings 里关闭 Email Provider。
@@ -443,66 +461,45 @@ GOOGLE_ANALYTICS_REFRESH_TOKEN=
 <table>
   <tr>
     <td width="33%" valign="top" align="center">
-      <p><strong>例 527：Rio 旅行票据纸雕立体海报</strong></p>
-      <a href="docs/gallery-part-2.md#case-527"><img src="data/images/case527.jpg" alt="Rio 旅行票据纸雕立体海报" width="180"></a><br>
-      <sub>把旅行票据、手绘注释和城市微缩景观合成一张复古旅行海报。</sub><br>
-      <a href="docs/gallery-part-2.md#case-527"><strong>查看案例</strong></a>
+      <p><strong>例 539：粗粝手绘搭档肖像海报</strong></p>
+      <a href="docs/gallery-part-2.md#case-539"><img src="data/images/case539.jpg" alt="粗粝手绘搭档肖像海报" width="180"></a><br>
+      <sub>粗粝墨线人物海报，组合半身主体、近景搭档、极简背景、受控配色和纸张印刷质感。</sub><br>
+      <a href="docs/gallery-part-2.md#case-539"><strong>查看案例</strong></a>
     </td>
     <td width="33%" valign="top" align="center">
-      <p><strong>例 528：圣诞街景 Chibi 真实背景人像</strong></p>
-      <a href="docs/gallery-part-2.md#case-528"><img src="data/images/case528.jpg" alt="圣诞街景 Chibi 真实背景人像" width="180"></a><br>
-      <sub>保留真实城市夜景背景，只把人物转成温暖的手绘 chibi 角色。</sub><br>
-      <a href="docs/gallery-part-2.md#case-528"><strong>查看案例</strong></a>
+      <p><strong>例 540：梦幻未来城市编辑艺术海报</strong></p>
+      <a href="docs/gallery-part-2.md#case-540"><img src="data/images/case540.jpg" alt="梦幻未来城市编辑艺术海报" width="180"></a><br>
+      <sub>竖版编辑艺术海报，组织未来城市、雕塑建筑、巨型植物、小人物、复古旅行海报质感。</sub><br>
+      <a href="docs/gallery-part-2.md#case-540"><strong>查看案例</strong></a>
     </td>
     <td width="33%" valign="top" align="center">
-      <p><strong>例 529：云朵气球山脊旅行人像</strong></p>
-      <a href="docs/gallery-part-2.md#case-529"><img src="data/images/case529.jpg" alt="云朵气球山脊旅行人像" width="180"></a><br>
-      <sub>山脊旅拍人像里加入一朵由细绳牵引的巨大云朵气球。</sub><br>
-      <a href="docs/gallery-part-2.md#case-529"><strong>查看案例</strong></a>
+      <p><strong>例 541：50/50 混合媒介回忆卡</strong></p>
+      <a href="docs/gallery-part-2.md#case-541"><img src="data/images/case541.jpg" alt="50/50 混合媒介回忆卡" width="180"></a><br>
+      <sub>把参考照片做成上下 50/50 回忆卡，上半区保留照片，下半区转为手工纸与蜡笔线稿。</sub><br>
+      <a href="docs/gallery-part-2.md#case-541"><strong>查看案例</strong></a>
     </td>
   </tr>
   <tr>
     <td width="33%" valign="top" align="center">
-      <p><strong>例 530：实拍背景涂鸦人物替换</strong></p>
-      <a href="docs/gallery-part-2.md#case-530"><img src="data/images/case530.jpg" alt="实拍背景涂鸦人物替换" width="180"></a><br>
-      <sub>严格保留原照片背景，把人物替换成儿童涂鸦式小角色。</sub><br>
-      <a href="docs/gallery-part-2.md#case-530"><strong>查看案例</strong></a>
+      <p><strong>例 542：黑白排版侧脸肖像海报</strong></p>
+      <a href="docs/gallery-part-2.md#case-542"><img src="data/images/case542.jpg" alt="黑白排版侧脸肖像海报" width="180"></a><br>
+      <sub>黑白高反差排版肖像，控制侧脸剪影、粗糙墨迹、小字信息和大号可读标题块。</sub><br>
+      <a href="docs/gallery-part-2.md#case-542"><strong>查看案例</strong></a>
     </td>
     <td width="33%" valign="top" align="center">
-      <p><strong>例 531：水晶框国家旅行广告海报</strong></p>
-      <a href="docs/gallery-part-2.md#case-531"><img src="data/images/case531.jpg" alt="水晶框国家旅行广告海报" width="180"></a><br>
-      <sub>用透明水晶拱框、镜面反射和国家地标组织高端旅行广告视觉。</sub><br>
-      <a href="docs/gallery-part-2.md#case-531"><strong>查看案例</strong></a>
+      <p><strong>例 543：旅行纪念珐琅徽章</strong></p>
+      <a href="docs/gallery-part-2.md#case-543"><img src="data/images/case543.jpg" alt="旅行纪念珐琅徽章" width="180"></a><br>
+      <sub>把旅行照片转成场景型珐琅徽章，控制金色分隔线、人物比例、光泽和深色布纹背景。</sub><br>
+      <a href="docs/gallery-part-2.md#case-543"><strong>查看案例</strong></a>
     </td>
     <td width="33%" valign="top" align="center">
-      <p><strong>例 532：六宫格柠檬饮料微缩广告</strong></p>
-      <a href="docs/gallery-part-2.md#case-532"><img src="data/images/case532.jpg" alt="六宫格柠檬饮料微缩广告" width="180"></a><br>
-      <sub>虚构柠檬饮料品牌的六宫格广告，靠统一地平线、动作节奏和产品高潮串联画面。</sub><br>
-      <a href="docs/gallery-part-2.md#case-532"><strong>查看案例</strong></a>
+      <p><strong>例 544：幼儿词汇拆解学习卡</strong></p>
+      <a href="docs/gallery-part-2.md#case-544"><img src="data/images/case544.jpg" alt="幼儿词汇拆解学习卡" width="180"></a><br>
+      <sub>幼儿词汇学习卡，控制大物体、局部拆解、虚线箭头、简笔提示和清晰英文标签。</sub><br>
+      <a href="docs/gallery-part-2.md#case-544"><strong>查看案例</strong></a>
     </td>
   </tr>
 </table>
-
-#### 代表案例 1：月下美女直播画面
-
-[![月下美女直播画面](data/images/case330.png)](docs/gallery-part-2.md#case-330)
-
-高仿直播截图场景，重点看界面氛围、中文弹幕和人物写实感的结合。
-[查看完整案例](docs/gallery-part-2.md#case-330)
-
-#### 代表案例 2：RAG 技术详解图
-
-[![RAG 技术详解图](data/images/case334.png)](docs/gallery-part-2.md#case-334)
-
-适合用来参考“技术概念 + 信息图排版 + 中文说明模块”的组织方式。
-[查看完整案例](docs/gallery-part-2.md#case-334)
-
-#### 代表案例 3：《赤壁怀古》长卷图
-
-[![赤壁怀古长卷图](data/images/case338.png)](docs/gallery-part-2.md#case-338)
-
-长卷尺寸、古风叙事和整篇文字排版结合得很完整，适合作为长文本视觉化参考。
-[查看完整案例](docs/gallery-part-2.md#case-338)
 
 <a name="section-templates"></a>
 

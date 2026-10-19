@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://github.com/freestylefly/awesome-gpt-image-2"><img src="https://img.shields.io/github/stars/freestylefly/awesome-gpt-image-2?style=flat-square&color=rgb(25%2C%20121%2C%20255)" alt="Stars"></a>
   <a href="https://github.com/freestylefly/awesome-gpt-image-2"><img src="https://img.shields.io/github/forks/freestylefly/awesome-gpt-image-2?style=flat-square&color=green" alt="Forks"></a>
-  <a href="https://github.com/freestylefly/awesome-gpt-image-2"><img src="https://img.shields.io/badge/Cases-532-blueviolet?style=flat-square" alt="Cases"></a>
+  <a href="https://github.com/freestylefly/awesome-gpt-image-2"><img src="https://img.shields.io/badge/Cases-544-blueviolet?style=flat-square" alt="Cases"></a>
   <a href="https://github.com/freestylefly/awesome-gpt-image-2"><img src="https://img.shields.io/badge/100%25-Original_AI_Rewritten-green?style=flat-square" alt="Original"></a>
 </p>
 
@@ -19,6 +19,22 @@
   <a href="./README.md">English</a> | <a href="./README.zh-CN.md">简体中文</a> | <strong>日本語</strong>
 </p>
 
+## GPT Image 2.5 特集
+
+[2.5 特集を見る](https://gpt-image2.canghe.ai/gpt-image-2-5/?lang=en)：Sunburst と Flare を紹介し、共通プロンプト、スライダー比較、並列表示、画像拡大、生成条件の確認を通して、新旧モデルを比較する操作を体験できます。特集ページは中国語・英語に対応しています。
+
+- [Sunburst](https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst)：画像生成と精密な編集向け。
+- [Flare](https://developers.openai.com/api/docs/models/gpt-image-2.5-flare)：高速で高品質な日常の画像生成向け。
+- **4 件の実生成例**：[532 レモン広告](https://gpt-image2.canghe.ai/gpt-image-2-5/?lang=en&case=gallery-532-test)、[527 リオのジオラマ](https://gpt-image2.canghe.ai/gpt-image-2-5/?lang=en&case=gallery-527-test)、[523 マンハッタンの水彩画](https://gpt-image2.canghe.ai/gpt-image-2-5/?lang=en&case=gallery-523-test)、[510 Bichon Shop アイコン](https://gpt-image2.canghe.ai/gpt-image-2-5/?lang=en&case=gallery-510-test)。元画像を保持し、各事例の全文プロンプトを変更せず、参照画像なしで内蔵ツールから 1 枚ずつ生成しました。ケース選択で直接切り替えられます。[画像・プロンプト・生成記録](docs/design/gpt-image-2-5/real-cases.md)。元の生成条件とツールの正確なモデル ID は未確認で、デモ例は個別に明示しています。
+
+特集は独立したページです。既存の GPT-Image2 事例、テンプレート、Skill、画像生成機能を引き続き利用できます。今回の更新には 2.5 のオンライン画像生成は含まれていません。
+
+<p align="center">
+  <a href="https://gpt-image2.canghe.ai/gpt-image-2-5/?lang=en">
+    <img src="docs/design/gpt-image-2-5/case532-preview.jpg" alt="GPT Image 2.5 特集のプレビュー：事例 532 の実生成" width="900">
+  </a>
+</p>
+
 ## 🌐 ビジュアル Web サイト
 
 [gpt-image2.canghe.ai](https://gpt-image2.canghe.ai/) では、プロダクトとして整備された体験でギャラリーを閲覧できます。大きなプレビューの確認、プロンプト全文のコピー、スタイルやシナリオによる絞り込み、Google ログイン後の生成テスト、GitHub 上の元ケースへの移動ができます。
@@ -29,12 +45,14 @@
   </a>
 </p>
 
-## WeChat 公式アカウント
+## コミュニティ
 
-WeChat で **苍何(Canghe)** を検索するか、下の QR カードをスキャンしてください。GPT-Image2 コミュニティグループに参加するには、公式アカウントをフォローしたうえで中国語で **gpt-image-2交流群**(GPT-Image-2 交流グループ)と返信してください。
+GPT-Image2 コミュニティに参加して、ほかのユーザーとプロンプト、制作方法、活用事例を共有できます。参加方法は[コミュニティページ](https://gpt-image2.canghe.ai/community)をご覧ください。
+
+WeChat 公式アカウント **苍何(Canghe)** をフォローするか、下の QR コードをスキャンすると、プロジェクトの更新、新しい事例、実用的なチュートリアルを受け取れます。
 
 <p align="center">
-  <img src="data/images/wechat-community.jpg" alt="苍何 WeChat コミュニティ QR カード" width="760">
+  <img src="src/assets/canghe-official-account.png" alt="苍何 WeChat 公式アカウントの QR コードと検索カード" width="760">
 </p>
 
 ## ❤️ スポンサー
@@ -44,9 +62,11 @@ WeChat で **苍何(Canghe)** を検索するか、下の QR カードをスキ�
 | スポンサー | 説明 |
 | ---------- | ---- |
 | <a href="https://apimart.ai/register?aff=oQgzUQ"><img src="data/images/sponsors/apimart.jpg" alt="APIMart" width="240"></a> | APIMart による本プロジェクトへのサポートに感謝します。APIMart は AI 画像/動画生成に特化した低価格 API プラットフォームで、GPT-Image-2 を `$0.006/image` から利用でき、1 ドルで 160 枚以上の画像を生成できます。画像と動画をひとつの非同期 API で扱い、タスク送信後に ID を受け取り、ポーリングまたはコールバックで結果を取得できます。数万枚規模のバッチ生成でもタイムアウトを抑え、モデル変更時もコードを書き換えずに対応できます。従量課金で月額料金はありません。[こちらから登録](https://apimart.ai/register?aff=oQgzUQ)して利用を始められます。 |
-| <a href="https://www.hiapi.ai/zh/register?aff=DzuH"><img src="data/images/sponsors/hiapi.jpg" alt="hiapi" width="240"></a> | hiapi による本プロジェクトへのサポートに感謝します。hiapi は AI 画像/動画生成 API プラットフォームで、GPT-Image-2（テキストから画像、画像編集、1K–4K）に加えて Seedance、Kling、Wan などの動画モデルも、ひとつの統一非同期 API で扱えます。タスクを送信して `task_id` を受け取り、ポーリングまたはコールバックで結果を取得でき、バッチ処理でもタイムアウトしにくく、モデル変更時もコードを書き換えずに対応できます。生成結果は hiapi 独自 CDN に保存され、**永続ストレージ**に対応しているため、画像/動画 URL を長期的に利用でき、急いで自分でダウンロードしてバックアップする必要がありません。Remote MCP と Agent Skills をネイティブに備え、Claude Code と Cursor にそのまま接続できます。中国語 UI とドキュメント、WeChat Pay、従量課金、月額料金なし。新規ユーザーには $1 の無料クレジット（約 50 枚分）が付与されます。[こちらから登録](https://www.hiapi.ai/zh/register?aff=DzuH&utm_source=github&utm_medium=sponsor&utm_campaign=awesome-gpt-image-2)して利用を始められます。 |
+| <a href="https://www.hiapi.ai/en/register?aff=DzuH&utm_source=github&utm_medium=sponsor&utm_campaign=awesome-gpt-image-2"><img src="data/images/sponsors/hiapi.jpg" alt="hiapi" width="240"></a> | HiAPI による本プロジェクトへのサポートに感謝します。HiAPI は GPT Image 2.5 Flare と Sunburst をはじめ、画像・動画・音声モデルを一つの API プラットフォームで提供しています。Flare は日常的な制作をすばやく進めたいときに、Sunburst は細部まで重視する生成・編集に適しています。どちらも 1K、2K、4K の出力に対応し、連携前に Playground で試せます。メディア生成には非同期タスク API を使用し、入力パラメータはモデルごとのドキュメントで確認できます。生成結果は HiAPI の CDN から提供され、長期保存が必要な場合は有料の永続ストレージを選択できます。Remote MCP と Agent Skills を使った AI コーディングツールとの連携にも対応しています。新規登録で **200 Credits** を受け取れます。チャージ特典の最新条件は Billing ページをご確認ください。[こちらから登録](https://www.hiapi.ai/en/register?aff=DzuH&utm_source=github&utm_medium=sponsor&utm_campaign=awesome-gpt-image-2)できます。 |
 | <a href="https://www.packyapi.ai/register?aff=CV0c"><img src="data/images/sponsors/packycode.png" alt="PackyCode" width="240"></a> | PackyCode による本プロジェクトへのサポートに感謝します。PackyCode は Claude Code、Codex、Gemini などに対応する、安定性と処理性能に優れた API リレープロバイダーです。自動フェイルオーバー、スマートルーティング、無制限の同時実行により、AI コーディングの生産性を高めます。[こちらから登録](https://www.packyapi.ai/register?aff=CV0c)して利用を始められます。 |
 | <a href="https://pptoken.cc/"><img src="data/images/sponsors/pptoken.png" alt="PPToken" width="240"></a> | プロジェクトスポンサー。PPToken は ChatGPT、Claude、Gemini など主要 AI モデル向けの API リレーとキー配布を提供し、低遅延、高可用性、従量課金、柔軟なサブスクリプションに対応しています。 |
+| <a href="https://onliqiu.com/r/agi2"><img src="data/images/sponsors/liqiu-api.png" alt="立秋 API" width="240"></a> | 立秋 API による本プロジェクトへのサポートに感謝します。立秋 API は、ChatGPT、Claude、Grok、Gemini などに対応する、安定性と透明性を重視した AI API リレープロバイダーです。従量課金で、料金倍率は 0.1x から。開発者向けに、深夜もメンテナンスを続ける信頼性の高いサービスを掲げています。[こちらから登録](https://onliqiu.com/r/agi2)して利用を始められます。 |
+| <a href="https://sidrune.ai/register?source=github&campaign=gptimage&promo=gptimage2"><img src="data/images/sponsors/sidrune.png" alt="Sidrune AI" width="240"></a> | **世界の主要 AI モデルへの接続と管理を、一つの窓口で**<br><br>Sidrune AI は個人開発者、技術チーム、企業に向けて、世界の主要 AI モデルへ接続・管理するための統一 API を提供します。マルチルートの動的スケジューリングで可用性を高め、モデルの性能、応答時間、費用は透明に確認できます。モデルとルートによって、API 呼び出しコストは公式価格や基準価格より 40%—98% 低く抑えられます。<br><br>[今すぐアクセスして登録](https://sidrune.ai/register?source=github&campaign=gptimage&promo=gptimage2)すると、$3 分の API クレジットを受け取れます。 |
 
 <a name="section-vision"></a>
 
@@ -64,7 +84,7 @@ GPT-Image2 が広く利用できるようになったことで、AI 画像生成
 
 - [ケースギャラリー全体](docs/gallery.md)
 - [Gallery Part 1：ケース 1-165](docs/gallery-part-1.md)
-- [Gallery Part 2：ケース 166-532](docs/gallery-part-2.md)
+- [Gallery Part 2：ケース 166-544](docs/gallery-part-2.md)
 - [産業向けプロンプトテンプレートと落とし穴ガイド](docs/templates.md#section-templates)
 - [Agent Skill：GPT-Image2 Style Library](agents/skills/gpt-image-2-style-library/SKILL.md)
 - [MIT License](LICENSE)
@@ -85,13 +105,13 @@ GPT-Image2 が広く利用できるようになったことで、AI 画像生成
       <a href="docs/gallery.md#cat-ui"><strong>ケースを見る</strong></a>
     </td>
     <td width="33%" valign="top" align="center">
-      <p><strong>📊 チャートとインフォグラフィック</strong><br><sub>52 cases</sub></p>
+      <p><strong>📊 チャートとインフォグラフィック</strong><br><sub>53 cases</sub></p>
       <a href="docs/gallery.md#cat-infographic"><img src="data/images/category-covers/infographic.jpg" alt="チャートとインフォグラフィック" width="220"></a><br>
       <sub>インフォグラフィック、ナレッジマップ、技術解説、構造化図解。</sub><br>
       <a href="docs/gallery.md#cat-infographic"><strong>ケースを見る</strong></a>
     </td>
     <td width="33%" valign="top" align="center">
-      <p><strong>📰 ポスターとタイポグラフィ</strong><br><sub>86 cases</sub></p>
+      <p><strong>📰 ポスターとタイポグラフィ</strong><br><sub>90 cases</sub></p>
       <a href="docs/gallery.md#cat-poster"><img src="data/images/category-covers/poster.jpg" alt="ポスターとタイポグラフィ" width="220"></a><br>
       <sub>イベントポスター、カバー、文字主体のビジュアル、強いレイアウト構成。</sub><br>
       <a href="docs/gallery.md#cat-poster"><strong>ケースを見る</strong></a>
@@ -99,7 +119,7 @@ GPT-Image2 が広く利用できるようになったことで、AI 画像生成
   </tr>
   <tr>
     <td width="33%" valign="top" align="center">
-      <p><strong>🛍️ 商品と E コマース</strong><br><sub>41 cases</sub></p>
+      <p><strong>🛍️ 商品と E コマース</strong><br><sub>42 cases</sub></p>
       <a href="docs/gallery.md#cat-product"><img src="data/images/category-covers/product.jpg" alt="商品と E コマース" width="220"></a><br>
       <sub>商品カット、詳細ページ、パッケージ、訴求ポイント、広告表現。</sub><br>
       <a href="docs/gallery.md#cat-product"><strong>ケースを見る</strong></a>
@@ -119,19 +139,19 @@ GPT-Image2 が広く利用できるようになったことで、AI 画像生成
   </tr>
   <tr>
     <td width="33%" valign="top" align="center">
-      <p><strong>📷 写真とリアリズム</strong><br><sub>77 cases</sub></p>
+      <p><strong>📷 写真とリアリズム</strong><br><sub>78 cases</sub></p>
       <a href="docs/gallery.md#cat-photo"><img src="data/images/category-covers/photo.jpg" alt="写真とリアリズム" width="220"></a><br>
       <sub>ポートレート、スマートフォン写真、フィルム質感、商業写真。</sub><br>
       <a href="docs/gallery.md#cat-photo"><strong>ケースを見る</strong></a>
     </td>
     <td width="33%" valign="top" align="center">
-      <p><strong>🎨 イラストとアート</strong><br><sub>58 cases</sub></p>
+      <p><strong>🎨 イラストとアート</strong><br><sub>59 cases</sub></p>
       <a href="docs/gallery.md#cat-illustration"><img src="data/images/category-covers/illustration.jpg" alt="イラストとアート" width="220"></a><br>
       <sub>イラスト、アートスタイル、素材実験、装飾的な画面表現。</sub><br>
       <a href="docs/gallery.md#cat-illustration"><strong>ケースを見る</strong></a>
     </td>
     <td width="33%" valign="top" align="center">
-      <p><strong>🧍 キャラクターと人物</strong><br><sub>29 cases</sub></p>
+      <p><strong>🧍 キャラクターと人物</strong><br><sub>31 cases</sub></p>
       <a href="docs/gallery.md#cat-character"><img src="data/images/category-covers/character.jpg" alt="キャラクターと人物" width="220"></a><br>
       <sub>キャラクターデザイン、ポーズ資料、カード、3D トイ表現。</sub><br>
       <a href="docs/gallery.md#cat-character"><strong>ケースを見る</strong></a>
@@ -139,7 +159,7 @@ GPT-Image2 が広く利用できるようになったことで、AI 画像生成
   </tr>
   <tr>
     <td width="33%" valign="top" align="center">
-      <p><strong>🎬 シーンとストーリーテリング</strong><br><sub>20 cases</sub></p>
+      <p><strong>🎬 シーンとストーリーテリング</strong><br><sub>21 cases</sub></p>
       <a href="docs/gallery.md#cat-scene"><img src="data/images/category-covers/scene.jpg" alt="シーンとストーリーテリング" width="220"></a><br>
       <sub>絵コンテ、物語性のあるシーン、ライブ配信フレーム、世界観構築。</sub><br>
       <a href="docs/gallery.md#cat-scene"><strong>ケースを見る</strong></a>
@@ -151,7 +171,7 @@ GPT-Image2 が広く利用できるようになったことで、AI 画像生成
       <a href="docs/gallery.md#cat-history"><strong>ケースを見る</strong></a>
     </td>
     <td width="33%" valign="top" align="center">
-      <p><strong>📚 ドキュメントと出版物</strong><br><sub>10 cases</sub></p>
+      <p><strong>📚 ドキュメントと出版物</strong><br><sub>11 cases</sub></p>
       <a href="docs/gallery.md#cat-document"><img src="data/images/category-covers/document.jpg" alt="ドキュメントと出版物" width="220"></a><br>
       <sub>ホワイトペーパー、マニュアル、百科図版、出版レイアウト。</sub><br>
       <a href="docs/gallery.md#cat-document"><strong>ケースを見る</strong></a>
@@ -167,14 +187,14 @@ GPT-Image2 が広く利用できるようになったことで、AI 画像生成
     <td width="33%" valign="top" align="center">
       <h4>🖼️ フルギャラリー</h4>
       <a href="docs/gallery.md"><img src="data/images/category-covers/gallery.jpg" alt="フルギャラリー" width="220"></a><br>
-      <sub>全 532 件のケースをパートとカテゴリ別に閲覧できます。</sub><br>
+      <sub>全 544 件のケースをパートとカテゴリ別に閲覧できます。</sub><br>
       <a href="docs/gallery.md"><strong>ギャラリーを開く</strong></a>
     </td>
     <td width="33%" valign="top" align="center">
       <h4>⭐ 最新の事例</h4>
-      <a href="docs/gallery-part-2.md#case-532"><img src="data/images/case532.jpg" alt="最新の事例" width="220"></a><br>
+      <a href="docs/gallery-part-2.md#case-544"><img src="data/images/case544.jpg" alt="最新の事例" width="220"></a><br>
       <sub>リポジトリに新しく収録されたコミュニティ事例とワークフロー。</sub><br>
-      <a href="docs/gallery-part-2.md#case-532"><strong>最新を見る</strong></a>
+      <a href="docs/gallery-part-2.md#case-544"><strong>最新を見る</strong></a>
     </td>
   </tr>
 </table>
@@ -303,7 +323,7 @@ Skill のソースは [`agents/skills/gpt-image-2-style-library`](agents/skills/
 
 ## 🔐 Web サイト認証と生成
 
-ビジュアルサイトには、ログイン後にケース生成を試せる機能が含まれています。基盤には Supabase Auth、Supabase Postgres、GPT Image 2 API 向けの Vercel Function プロキシを使用しています。
+ビジュアルサイトでは、ブラウザ内だけに保存する個人 APIMart API Key を使って直接生成できます。個人 Key がない場合は、ログイン、Supabase、プラットフォームクレジット、サーバー側 APIMart Key を利用します。
 
 Vercel で必要な環境変数：
 
@@ -312,8 +332,7 @@ VITE_SUPABASE_URL=
 VITE_SUPABASE_ANON_KEY=
 SUPABASE_SERVICE_ROLE_KEY=
 SUPER_ADMIN_EMAILS=2689458656@qq.com,canghe0818@gmail.com
-CIYUAN_API_KEY=
-CIYUAN_BASE_URL=https://ciyuan.today
+APIMART_API_KEY=
 APP_URL=https://gpt-image2.canghe.ai
 STRIPE_SECRET_KEY=
 STRIPE_WEBHOOK_SECRET=
@@ -331,6 +350,7 @@ GOOGLE_ANALYTICS_REFRESH_TOKEN=
 - [`supabase/migrations/20260512090000_google_account_center.sql`](supabase/migrations/20260512090000_google_account_center.sql) を適用し、アカウント利用サマリーとスーパー管理者向けの強制クレジット課金を追加します。
 - [`supabase/migrations/20260512143000_pricing_admin_metrics.sql`](supabase/migrations/20260512143000_pricing_admin_metrics.sql) を適用し、`$5 / 300 credits` のカタログを更新して管理ダッシュボード指標を追加します。
 - [`supabase/migrations/20260515090000_case_favorites.sql`](supabase/migrations/20260515090000_case_favorites.sql) を適用し、ユーザーごとのケースお気に入り機能を追加します。
+- [`supabase/migrations/20260828090000_apimart_generation_tasks.sql`](supabase/migrations/20260828090000_apimart_generation_tasks.sql) を適用し、APIMart タスク ID、実際の USD コスト、有効期限付き結果 URL、プロバイダー索引を追加します。
 - Supabase Auth の Redirect URLs に `https://gpt-image2.canghe.ai` と、`http://127.0.0.1:5173` などのローカル開発 URL を追加します。
 - Supabase Dashboard に Google OAuth 認証情報を追加したうえで Google Provider を有効化します。
 - Google ログインのみに制限したい場合は、Supabase Auth settings で Email Provider を無効化します。
@@ -440,42 +460,42 @@ GOOGLE_ANALYTICS_REFRESH_TOKEN=
 <table>
   <tr>
     <td width="33%" valign="top" align="center">
-      <p><strong>Case 527：リオ旅行チケットの紙細工ジオラマ</strong></p>
-      <a href="docs/gallery-part-2.md#case-527"><img src="data/images/case527.jpg" alt="リオ旅行チケットの紙細工ジオラマ" width="150"></a><br>
-      <sub>旅行チケット、手描きメモ、都市のミニチュア景観を一枚のポップアップポストカードにまとめた例。</sub><br>
-      <a href="docs/gallery-part-2.md#case-527"><strong>ケースを見る</strong></a>
+      <p><strong>Case 539：ラフスケッチ人物ポスター</strong></p>
+      <a href="docs/gallery-part-2.md#case-539"><img src="data/images/case539.jpg" alt="Raw Sketchy Portrait Poster" width="150"></a><br>
+      <sub>ラフな墨線ポスターで、半身人物、近くの相棒、最小限の背景、抑えた配色、紙の印刷質感を制御する例。</sub><br>
+      <a href="docs/gallery-part-2.md#case-539"><strong>ケースを見る</strong></a>
     </td>
     <td width="33%" valign="top" align="center">
-      <p><strong>Case 528：実写ホリデー街並みのちびポートレート</strong></p>
-      <a href="docs/gallery-part-2.md#case-528"><img src="data/images/case528.jpg" alt="実写ホリデー街並みのちびポートレート" width="150"></a><br>
-      <sub>実写の街並み背景を残し、人物だけを温かい手描きちびキャラクターへ変換する例。</sub><br>
-      <a href="docs/gallery-part-2.md#case-528"><strong>ケースを見る</strong></a>
+      <p><strong>Case 540：夢のような未来都市エディトリアルポスター</strong></p>
+      <a href="docs/gallery-part-2.md#case-540"><img src="data/images/case540.jpg" alt="Dreamlike Futuristic World Poster" width="150"></a><br>
+      <sub>未来都市、彫刻的建築、大きな植物、小さな人物、ヴィンテージ旅行ポスター質感を組み合わせる縦型編集ポスター。</sub><br>
+      <a href="docs/gallery-part-2.md#case-540"><strong>ケースを見る</strong></a>
     </td>
     <td width="33%" valign="top" align="center">
-      <p><strong>Case 529：雲のバルーン山稜ポートレート</strong></p>
-      <a href="docs/gallery-part-2.md#case-529"><img src="data/images/case529.jpg" alt="雲のバルーン山稜ポートレート" width="150"></a><br>
-      <sub>巨大な雲のバルーン、物理的な紐、山岳の奥行き、服装制約を組み合わせた旅行ファッション写真。</sub><br>
-      <a href="docs/gallery-part-2.md#case-529"><strong>ケースを見る</strong></a>
+      <p><strong>Case 541：50/50 ミックスメディア思い出カード</strong></p>
+      <a href="docs/gallery-part-2.md#case-541"><img src="data/images/case541.jpg" alt="50/50 Mixed-Media Memory Card" width="150"></a><br>
+      <sub>参照写真の上半分を保持し、下半分を手工紙、色面、ワックスクレヨン線画へ変換する思い出カード。</sub><br>
+      <a href="docs/gallery-part-2.md#case-541"><strong>ケースを見る</strong></a>
     </td>
   </tr>
   <tr>
     <td width="33%" valign="top" align="center">
-      <p><strong>Case 530：実写背景の手描き人物置換</strong></p>
-      <a href="docs/gallery-part-2.md#case-530"><img src="data/images/case530.jpg" alt="実写背景の手描き人物置換" width="150"></a><br>
-      <sub>元写真の背景を保ったまま、人物だけを素朴な手描きキャラクターに置換する制御例。</sub><br>
-      <a href="docs/gallery-part-2.md#case-530"><strong>ケースを見る</strong></a>
+      <p><strong>Case 542：白黒タイポグラフィ肖像ポスター</strong></p>
+      <a href="docs/gallery-part-2.md#case-542"><img src="data/images/case542.jpg" alt="Black-and-White Typographic Portrait Poster" width="150"></a><br>
+      <sub>横顔シルエット、粗いインク、小さな編集テキスト、大きな可読文字ブロックを組み合わせる白黒ポスター。</sub><br>
+      <a href="docs/gallery-part-2.md#case-542"><strong>ケースを見る</strong></a>
     </td>
     <td width="33%" valign="top" align="center">
-      <p><strong>Case 531：クリスタルフレームの国別旅行キャンペーン</strong></p>
-      <a href="docs/gallery-part-2.md#case-531"><img src="data/images/case531.jpg" alt="クリスタルフレームの国別旅行キャンペーン" width="150"></a><br>
-      <sub>透明なクリスタルフレーム、鏡面反射、国別ランドマーク、上品な編集タイポを組み合わせた旅行広告。</sub><br>
-      <a href="docs/gallery-part-2.md#case-531"><strong>ケースを見る</strong></a>
+      <p><strong>Case 543：旅の記念エナメルピンバッジ</strong></p>
+      <a href="docs/gallery-part-2.md#case-543"><img src="data/images/case543.jpg" alt="Travel Souvenir Enamel Pin Badge" width="150"></a><br>
+      <sub>旅行写真を金色の仕切り線、簡略化した人物、光沢エナメル、濃紺の布地背景で構成するピンバッジ。</sub><br>
+      <a href="docs/gallery-part-2.md#case-543"><strong>ケースを見る</strong></a>
     </td>
     <td width="33%" valign="top" align="center">
-      <p><strong>Case 532：6分割レモンドリンク広告</strong></p>
-      <a href="docs/gallery-part-2.md#case-532"><img src="data/images/case532.jpg" alt="6分割レモンドリンク広告" width="150"></a><br>
-      <sub>架空レモンドリンクの6分割広告。水平線、動作リズム、主役商品への盛り上げを統一した例。</sub><br>
-      <a href="docs/gallery-part-2.md#case-532"><strong>ケースを見る</strong></a>
+      <p><strong>Case 544：幼児向け語彙分解学習カード</strong></p>
+      <a href="docs/gallery-part-2.md#case-544"><img src="data/images/case544.jpg" alt="Preschool Vocabulary Learning Card" width="150"></a><br>
+      <sub>大きな対象、部分説明、点線矢印、簡単なイラスト、読みやすい英語ラベルを使う幼児向け語彙カード。</sub><br>
+      <a href="docs/gallery-part-2.md#case-544"><strong>ケースを見る</strong></a>
     </td>
   </tr>
 </table>
